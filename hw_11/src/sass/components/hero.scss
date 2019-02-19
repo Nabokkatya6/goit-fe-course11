@@ -1,0 +1,43 @@
+.hero-text {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-transform: $transformation;
+}
+.hero-text__title {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: $main-font;
+    font-style: oblique;
+    text-transform: none;
+    margin-bottom: 60px;
+}
+.hero-text__subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 110px;
+    font-weight: $fontweight;
+    margin-bottom: 116px;
+    font-family: $main-font-stack;
+}
+.hero-text__link {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 0;
+    width: 160px;
+    height: 40px;
+    border: 3px solid $primary-white-color;
+    background-color: transparent;
+    text-decoration: $decorations;
+    color: $primary-white-color;
+    font-family: $main-font-stack;
+    font-size: 16px;
+    text-transform: $transformation;
+    font-weight: $fontweight;
+    background-color: none;
+
+    &:hover {
+    background-color: #f19584;
+    }
+}

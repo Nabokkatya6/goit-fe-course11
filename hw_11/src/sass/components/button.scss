@@ -1,0 +1,26 @@
+
+.mail-buttton {
+    padding: 0;
+    width: 227px;
+    height: 40px;
+    background-color: $primary-white-color;
+    font-style: oblique;
+    color: grey;
+    font-size: 18px;
+    border: 1px solid $background-color-three;
+    text-align: left;
+}
+.sub-button {
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    text-transform: $transformation;
+    font-weight: $fontweight;
+    color: white;
+    border: 1px solid $background-color-three;
+
+    &:hover {
+    background-color: $background-color-three;
+    }
+}

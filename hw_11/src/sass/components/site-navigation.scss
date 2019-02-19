@@ -1,0 +1,32 @@
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.site-navigation__link {
+    font-family: $main-font-stack;
+    display: block;
+    text-decoration: $decorations;
+    color: $primary-white-color;
+    text-transform: $transformation;
+}
+.site-navigation__link::after {
+    display: block;
+    content: '';
+    height: 3px;
+    background-color: $primary-bg-color;
+    transform: scaleX(0);
+    transition: transform 200ms ease-in-out;
+
+    &:hover {
+    color: $primary-bg-color;
+    }
+
+    &:hover::after.site-navigation a:focus::after {
+    transform: scaleX(1);
+    }
+}

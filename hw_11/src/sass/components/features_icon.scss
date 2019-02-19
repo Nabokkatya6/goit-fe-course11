@@ -1,0 +1,29 @@
+.features__icon::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 25px;
+    top:0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.features__icon--clock::before {
+    background-image: url("../img/social/1.png");
+}
+.features__icon--zigzag::before {
+    background-image: url("../img/social/2.png");
+}
+.features__icon--mark::before {
+    background-image: url("../img/social/3.png");
+}
+.features__icon--book::before {
+    background-image: url("../img/social/4.png");
+}
+.features__icon--house::before {
+    background-image: url("../img/social/5.png");
+}
+.features__icon--square::before {
+    background-image: url("../img/social/6.png");
+}

@@ -1,0 +1,19 @@
+.overlay__link {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-position: center;
+    background-color: $primary-bg-color;
+    background-repeat: no-repeat;
+    transition: background-color 0.3s linear;
+    line-height: 65px;
+
+    &:hover {
+    background-color: $background-color-primary;
+    }
+
+    &:hover .svg-icon {
+    fill: $primary-white-color;
+    transition: background-color 0.3s linear;
+    }
+}

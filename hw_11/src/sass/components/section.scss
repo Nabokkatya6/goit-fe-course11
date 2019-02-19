@@ -1,0 +1,36 @@
+.section-header {
+    margin-bottom: 60px;
+}
+.section__title {
+    text-align: $textalign;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: $main-font;
+}
+.section__subtitle {
+    font-family: $main-font-stack-secondary;
+    margin: 0;
+    text-align: $textalign;
+    color: #333333;
+    font-weight: $fontweight;
+    font-size: 35px;
+    text-transform: $transformation;
+}
+.section__subtitle::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: $background-color-primary;
+    margin: 0 auto;
+    margin-top: 22px;
+ }
+ .section__text {
+    font-family: $main-font-stack-secondary;
+    text-align: $textalign;
+    margin: 0;
+    color: #b6b6b6;
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}

@@ -1,0 +1,39 @@
+.features {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: $main-font;
+    margin: 0;
+    font-weight: normal;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 22px;
+    text-align: $textalign;
+}
+.features__item {
+    position: relative;
+    width: 382px;
+    padding-left: 80px;
+    margin-bottom: 100px;
+ }
+.features__professions {
+    font-family: $main-font-stack;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: $transformation;
+    font-weight: normal;
+    font-style: normal;
+}
+.features__title {
+    font-family: 'Roboto+Slab';
+    margin: 0;
+    color:#b6b6b6;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}

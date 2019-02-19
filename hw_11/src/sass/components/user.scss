@@ -1,0 +1,19 @@
+.user-nav {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: $liststyles;
+}
+.user__svg {
+    width: 18px;
+    height: 18px;
+    fill: $primary-white-color;
+    transition: fill 0.3s linear;
+
+    &:hover {
+    color: $primary-bg-color;
+    }
+}
